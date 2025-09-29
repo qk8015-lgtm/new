@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <title>Sissi Qin — Portfolio</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="秦子琋, Sissi, 師大, 科技系, 設計, 程式, 教育, UI/UX, 烘焙, 活動" name="keywords">
+  <meta content="秦子琋（Sissi）— 台北的科技系學生；設計 × 程式 × 教育。這裡紀錄我的烘焙作品與校園活動經驗。" name="description">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Brand colors override: 粉紅 + 奶白 -->
+  <style>
+    :root{
+      --bs-primary: #f472b6;  /* 粉紅 */
+      --bs-secondary: #faf7f5;/* 奶白 */
+    }
+    body{ background-color: var(--bs-secondary); }
+    .text-primary{ color: var(--bs-primary) !important; }
+    .btn-primary{ background-color: var(--bs-primary); border-color: var(--bs-primary); }
+    .btn-primary:hover{ filter: brightness(.95); }
+    /* 將原本深色大區塊改為粉紅底 */
+    .bg-dark{ background-color:#f472b6 !important; }
+  </style>
+</head>
+
+<body>
+
+  <!-- Spinner Start -->
+  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Navbar Start -->
+  <div class="container-fluid nav-section border-0">
+    <nav class="navbar navbar-light">
+      <div class="navbar-nav flex-column">
+        <a href="#pigraHome" class="nav-item nav-link active"><span class="fa fa-home"></span> Home</a>
+        <a href="#pigraAbout" class="nav-item nav-link"><span class="far fa-address-card"></span> About</a>
+        <a href="#pigraService" class="nav-item nav-link"><span class="fab fa-servicestack"></span> What I Do</a>
+        <a href="#pigraPortfolio" class="nav-item nav-link"><span class="fa fa-images"></span> Portfolio</a>
+        <a href="#pigraContact" class="nav-item nav-link"><span class="fas fa-address-book"></span> Contact</a>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- Header Start -->
+  <div class="container-fluid" id="pigraHome">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-12 col-lg-3">
+          <div class="header-content bg-dark h-100 pt-6 pe-6 pb-6">
+            <a href="#pigraHome" class="navbar-brand d-inline-flex pb-5 wow fadeInUp" data-wow-delay="0.1s">
+              <h1 class="display-6 text-white mb-0">Sissi</h1>
+            </a>
+            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.3s">
+              <p class="text-white sub-title">👋 大家好我是秦子琋（Sissi）</p>
+              <h1 class="display-6 text-white mb-0">科技117級｜台北，台灣｜設計 × 程式 × 教育</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-9">
+          <div class="header-img d-flex h-100 pt-6 ps-6 pb-6">
+            <div class="row g-5">
+              <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-light p-4" style="border-radius:68% 32% 100% 0% / 0% 75% 25% 100%;">
+                  <img src="imgg/me.JPG"
+                       class="img-fluid w-100" style="border-radius:68% 32% 100% 0% / 0% 75% 25% 100%;" alt="Sissi">
+                </div>
+              </div>
+              <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="display-6 mb-4">科技117乙班</h1>
+                <p class="mb-4">我把設計思考與前端技術用在教育情境，讓學習更直覺好玩。平時也熱愛烘焙與畫畫，常參與校內活動，累積社交與活動執行力。</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                  <p class="text-dark mb-0">台北市南港區三重路41巷37號7樓</p>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="fas fa-envelope text-primary me-3"></i>
+                  <p class="text-dark mb-0"><a href="mailto:qk8015@gmail.com">qk8015@gmail.com</a></p>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="fa fa-phone-alt text-primary me-3"></i>
+                  <p class="text-dark mb-0">0910-162-739</p>
+                </div>
+                <div class="d-flex">
+                  <a class="btn btn-primary btn-sm-square me-3" target="_blank" rel="noopener"
+                     href="https://www.instagram.com/cc.tzuhsi?igsh=MXQzajk2NTdqb3cz&utm_source=qr"><i class="fab fa-instagram text-white"></i></a>
+                  <a class="btn btn-primary btn-sm-square me-0" target="_blank" rel="noopener"
+                     href="https://www.linkedin.com/in/%E5%AD%90%E7%90%8B-%E7%A7%A6-cccc?trk=contact-info"><i class="fab fa-linkedin-in text-white"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header End -->
+
+  <!-- About Start -->
+  <div class="container-fluid" id="pigraAbout">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-12 col-lg-3">
+          <div class="about-header bg-dark h-100 pt-6 pe-6 pb-6">
+            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+              <p class="text-white sub-title">About Me</p>
+              <h1 class="display-6 text-white mb-0">設計 × 程式 × 教育</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-9">
+          <div class="about-content h-100 pt-6 ps-6 pb-6">
+            <div class="row g-5">
+              <div class="col-xl-5">
+                <div class="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
+                  <img src="imgg/me.JPG" class="img-fluid w-100" alt="Sissi">
+                  <div class="sosial-icon">
+                    <a class="btn btn-primary btn-sm-square mb-3" target="_blank" rel="noopener" href="https://www.instagram.com/cc.tzuhsi?igsh=MXQzajk2NTdqb3cz&utm_source=qr"><i class="fab fa-instagram text-white"></i></a>
+                    <a class="btn btn-primary btn-sm-square mb-0" target="_blank" rel="noopener" href="https://www.linkedin.com/in/%E5%AD%90%E7%90%8B-%E7%A7%A6-cccc?trk=contact-info"><i class="fab fa-linkedin-in text-white"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                <h4 class="mb-4">Hi，我是 Sissi</h4>
+                <p class="mb-4">師大科技系學生。喜歡把抽象概念轉成能互動、好理解的體驗。興趣是烘焙與繪畫，也常參與與規劃校內活動。</p>
+                <div class="row g-4 mb-4">
+                  <div class="col-6">
+                    <p><strong class="fw-bold text-dark">城市：</strong> 台北</p>
+                    <p><strong class="fw-bold text-dark">是否接案：</strong> 看案合作</p>
+                    <p class="mb-0"><strong class="fw-bold text-dark">Email：</strong> <a href="mailto:qk8015@gmail.com">qk8015@gmail.com</a></p>
+                  </div>
+                  <div class="col-6">
+                    <p><strong class="fw-bold text-dark">社群：</strong> IG / LinkedIn</p>
+                    <p><strong class="fw-bold text-dark">興趣：</strong> 烘焙、繪畫、活動</p>
+                    <p class="mb-0"><strong class="fw-bold text-dark">電話：</strong> 0910-162-739</p>
+                  </div>
+                </div>
+                <a href="#pigraPortfolio" class="btn btn-primary py-2 px-4"><i class="fas fa-images me-2"></i>看作品集</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+
+  <!-- Education Start -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-lg-3">
+          <div class="education-header bg-dark h-100 pt-6 pe-6 pb-6">
+            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+              <p class="text-white sub-title">Education</p>
+              <h1 class="display-6 text-white mb-0">學歷</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="education-content h-100 pt-6 ps-6 pb-6">
+            <div class="row g-4">
+              <div class="col-12">
+                <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="fs-5 mb-0 me-4">國立臺灣師範大學</p>
+                    <div><span class="fa fa-calendar me-1"></span> — </div>
+                  </div>
+                  <h4 class="mb-3">科技應用與人力資源發展學系</h4>
+                  <p class="mb-0">關注設計 × 程式 × 教育的跨域實作。</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="fs-5 mb-0 me-4">南湖高中</p>
+                    <div><span class="fa fa-calendar me-1"></span> — </div>
+                  </div>
+                  <h4 class="mb-3">高中部</h4>
+                  <p class="mb-0">活動參與與社團協作。</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="fs-5 mb-0 me-4">私立復興實驗高級中學</p>
+                    <div><span class="fa fa-calendar me-1"></span> — </div>
+                  </div>
+                  <h4 class="mb-3">國中部</h4>
+                  <p class="mb-0">打底美術與自我管理能力。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Education End -->
+
+  <!-- Experience Start (以校內活動為主) -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-lg-3">
+          <div class="experience-header bg-dark h-100 pt-6 pe-6 pb-6">
+            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+              <p class="text-white sub-title">Experience</p>
+              <h1 class="display-6 text-white mb-0">活動經驗</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="experience-content h-100 pt-6 ps-6 pb-6">
+            <div class="row g-4">
+              <div class="col-12">
+                <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="fs-5 mb-0 me-4">系內科技營隊</p>
+                  </div>
+                  <h4 class="mb-3">Campus Activity</h4>
+                  <p class="mb-0">協助課程與器材管理、帶領活動，提升學員參與度。</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="fs-5 mb-0 me-4">伯樂輔導員</p>
+                  </div>
+                  <h4 class="mb-3">Mentorship</h4>
+                  <p class="mb-0">陪伴學弟妹適應課業與生活，規劃學習資源與交流活動。</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="fs-5 mb-0 me-4">宿營美輔股股長</p>
+                  </div>
+                  <h4 class="mb-3">Event Design</h4>
+                  <p class="mb-0">統籌美宣與活動支援，制定視覺規範與動線，提升辨識度與流暢度。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Experience End -->
+
+  <!-- Skills Start -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-lg-3">
+          <div class="skills-header h-100 bg-dark pt-6 pe-6 pb-6">
+            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+              <p class="text-white sub-title">Skills</p>
+              <h1 class="display-6 text-white mb-0">我的技能</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="skills-content h-100 pt-6 ps-6 pb-6">
+            <div class="row g-4">
+              <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="text-primary text-center mb-3"><span class="fas fa-cookie-bite fa-3x"></span></div>
+                  <div class="counter-counting d-flex justify-content-center">
+                    <h4 class="display-6" data-toggle="counter-up">90</h4><h4 class="display-6">%</h4>
+                  </div>
+                  <p class="mb-0">烘焙（餅乾）</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="text-primary text-center mb-3"><span class="fas fa-paint-brush fa-3x"></span></div>
+                  <div class="counter-counting d-flex justify-content-center">
+                    <h4 class="display-6" data-toggle="counter-up">85</h4><h4 class="display-6">%</h4>
+                  </div>
+                  <p class="mb-0">畫畫</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="text-primary text-center mb-3"><span class="fas fa-people-arrows fa-3x"></span></div>
+                  <div class="counter-counting d-flex justify-content-center">
+                    <h4 class="display-6" data-toggle="counter-up">80</h4><h4 class="display-6">%</h4>
+                  </div>
+                  <p class="mb-0">社交</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.7s">
+                  <div class="text-primary text-center mb-3"><span class="fas fa-calendar-check fa-3x"></span></div>
+                  <div class="counter-counting d-flex justify-content-center">
+                    <h4 class="display-6" data-toggle="counter-up">85</h4><h4 class="display-6">%</h4>
+                  </div>
+                  <p class="mb-0">活動籌辦能力</p>
+                </div>
+              </div>
+            </div><!-- /row -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Skills End -->
+
+  <!-- Service Start (我能做什麼) -->
+  <div class="container-fluid" id="pigraService">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-lg-3">
+          <div class="service-header h-100 bg-dark pt-6 pe-6 pb-6">
+            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+              <p class="text-white sub-title">What I Do</p>
+              <h1 class="display-6 text-white mb-0">我能做什麼</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="service-content h-100 pt-6 ps-6 pb-6">
+            <div class="row g-4">
+              <div class="col-12">
+                <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="row g-4 align-items-center">
+                    <div class="col-xl-2"><i class="fas fa-palette fa-3x"></i></div>
+                    <div class="col-xl-3"><span class="h4 mb-0">視覺與插畫</span></div>
+                    <div class="col-xl-4"><p class="mb-0">社團/活動視覺、海報與社群素材製作。</p></div>
+                    <div class="col-xl-3">
+                      <p><i class="fa fa-check me-2"></i> 海報/EDM</p>
+                      <p><i class="fa fa-check me-2"></i> 活動主視覺</p>
+                      <p class="mb-0"><i class="fa fa-check me-2"></i> 社群套版</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="row g-4 align-items-center">
+                    <div class="col-xl-2"><i class="fas fa-laptop-code fa-3x"></i></div>
+                    <div class="col-xl-3"><span class="h4 mb-0">前端切版</span></div>
+                    <div class="col-xl-4"><p class="mb-0">用現成模板快速客製，支援 RWD 與基本互動。</p></div>
+                    <div class="col-xl-3">
+                      <p><i class="fa fa-check me-2"></i> HTML/CSS</p>
+                      <p><i class="fa fa-check me-2"></i> 跨裝置設計</p>
+                      <p class="mb-0"><i class="fa fa-check me-2"></i> 輕量動畫</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="row g-4 align-items-center">
+                    <div class="col-xl-2"><i class="fas fa-users fa-3x"></i></div>
+                    <div class="col-xl-3"><span class="h4 mb-0">活動企劃與執行</span></div>
+                    <div class="col-xl-4"><p class="mb-0">社團與系內活動的流程與資源協調。</p></div>
+                    <div class="col-xl-3">
+                      <p><i class="fa fa-check me-2"></i> 動線/物資</p>
+                      <p><i class="fa fa-check me-2"></i> 人員分工</p>
+                      <p class="mb-0"><i class="fa fa-check me-2"></i> 現場執行</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /row -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Service End -->
+
+  <!-- Portfolio Start -->
+  <div class="container-fluid" id="pigraPortfolio">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-lg-3">
+          <div class="portfolio-header h-100 bg-dark pt-6 pe-6 pb-6">
+            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+              <p class="text-white sub-title">Portfolio</p>
+              <h1 class="display-6 text-white mb-0">我的作品</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="portfolio-content h-100 pt-6 ps-6 pb-6">
+            <!-- 1 奶油小狗餅乾 -->
+            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+              <div class="row g-4 align-items-center">
+                <div class="col-xl-6">
+                  <h4 class="text-body">Baking</h4>
+                  <h1 class="display-6 mb-0">奶油小狗餅乾</h1>
+                </div>
+                <div class="col-9 col-xl-4">
+                  <div class="portfolio-img">
+                    <div class="portfolio-img-inner">
+                      <img src="imgg/dog_cookie.JPG" class="img-fluid" alt="奶油小狗餅乾">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 col-xl-2">
+                  <div class="view-img">
+                    <a href="imgg/dog_cookie.JPG" class="btn btn-primary btn-lg-square" data-lightbox="bake"><i class="fas fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2 凱蒂貓餅乾 -->
+            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
+              <div class="row g-4 align-items-center">
+                <div class="col-xl-6">
+                  <h4 class="text-body">Baking</h4>
+                  <h1 class="display-6 mb-0">凱蒂貓餅乾</h1>
+                </div>
+                <div class="col-9 col-xl-4">
+                  <div class="portfolio-img">
+                    <div class="portfolio-img-inner">
+                      <img src="imgg/kitty_cookie.PNG" class="img-fluid" alt="凱蒂貓餅乾">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 col-xl-2">
+                  <div class="view-img">
+                    <a href="imgg/kitty_cookie.PNG" class="btn btn-primary btn-lg-square" data-lightbox="bake"><i class="fas fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3 小熊紅豆麵包 -->
+            <div class="portfolio-item py-5 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="row g-4 align-items-center">
+                <div class="col-xl-6">
+                  <h4 class="text-body">Baking</h4>
+                  <h1 class="display-6 mb-0">小熊紅豆麵包</h1>
+                </div>
+                <div class="col-9 col-xl-4">
+                  <div class="portfolio-img">
+                    <div class="portfolio-img-inner">
+                      <img src="imgg/bear_bread.PNG" class="img-fluid" alt="小熊紅豆麵包">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 col-xl-2">
+                  <div class="view-img">
+                    <a href="imgg/bear_bread.PNG" class="btn btn-primary btn-lg-square" data-lightbox="bake"><i class="fas fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 活動經驗（同版型加三則） -->
+            <div class="portfolio-item py-5 border-top mt-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+              <div class="row g-4 align-items-center">
+                <div class="col-xl-6">
+                  <h4 class="text-body">Campus Activity</h4>
+                  <h1 class="display-6 mb-0">系內科技營隊</h1>
+                </div>
+                <div class="col-9 col-xl-4">
+                  <div class="portfolio-img">
+                    <div class="portfolio-img-inner">
+                      <img src="imgg/camp.PNG" class="img-fluid" alt="系內科技營隊">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 col-xl-2">
+                  <div class="view-img">
+                    <a href="imgg/camp.PNG" class="btn btn-primary btn-lg-square" data-lightbox="act"><i class="fas fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
+              <div class="row g-4 align-items-center">
+                <div class="col-xl-6">
+                  <h4 class="text-body">Mentorship</h4>
+                  <h1 class="display-6 mb-0">伯樂輔導員</h1>
+                </div>
+                <div class="col-9 col-xl-4">
+                  <div class="portfolio-img">
+                    <div class="portfolio-img-inner">
+                      <img src="imgg/counselor.JPG" class="img-fluid" alt="伯樂輔導員">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 col-xl-2">
+                  <div class="view-img">
+                    <a href="imgg/counselor.JPG" class="btn btn-primary btn-lg-square" data-lightbox="act"><i class="fas fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item py-5 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="row g-4 align-items-center">
+                <div class="col-xl-6">
+                  <h4 class="text-body">Event Design</h4>
+                  <h1 class="display-6 mb-0">宿營美輔股股長</h1>
+                </div>
+                <div class="col-9 col-xl-4">
+                  <div class="portfolio-img">
+                    <div class="portfolio-img-inner">
+                      <img src="imgg/camp_leader.JPG" class="img-fluid" alt="宿營美輔股股長">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 col-xl-2">
+                  <div class="view-img">
+                    <a href="imgg/camp_leader.JPG" class="btn btn-primary btn-lg-square" data-lightbox="act"><i class="fas fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /portfolio-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio End -->
+
+  <!-- Contact Start -->
+  <div class="container-fluid" id="pigraContact">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-lg-3">
+          <div class="contact-header h-100 bg-dark pt-6 pe-6 pb-6">
+            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+              <p class="text-white sub-title">Contact</p>
+              <h1 class="display-6 text-white mb-0">找我合作</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="contact-content h-100 pt-6 ps-6 pb-6">
+            <div class="bg-light p-4">
+              <div class="row g-5">
+                <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
+                  <p class="mb-4">想合作或交流，歡迎 Email 或從社群私訊我！</p>
+                  <div class="d-flex mb-4">
+                    <div class="btn-xl-square bg-primary text-white me-3"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                      <h4>Address</h4>
+                      <p class="mb-0">台灣台北市南港區三重路41巷37號7樓</p>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-4">
+                    <div class="btn-xl-square bg-primary text-white me-3"><i class="fas fa-envelope"></i></div>
+                    <div>
+                      <h4>Email</h4>
+                      <p class="mb-0"><a href="mailto:qk8015@gmail.com">qk8015@gmail.com</a></p>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="btn-xl-square bg-primary text-white me-3"><i class="fab fa-linkedin-in"></i></div>
+                    <div>
+                      <h4>LinkedIn</h4>
+                      <p class="mb-0"><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/%E5%AD%90%E7%90%8B-%E7%A7%A6-cccc?trk=contact-info">Profile</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                  <!-- 表單關閉：改成 Email 按鈕 -->
+                  <div class="p-4 bg-white rounded">
+                    <h4 class="mb-3">直接寄信給我</h4>
+                    <a class="btn btn-primary w-100 py-3" href="mailto:qk8015@gmail.com?subject=%E5%90%88%E4%BD%9C%E8%A8%8E%E8%AB%96%E7%B5%A6%20Sissi&body=Hi%20Sissi%EF%BC%8C%E6%88%91%E6%83%B3%E8%A8%8E%E8%AB%96%E4%BB%A5%E4%B8%8B%E4%BA%8B%E9%A0%85%EF%BC%9A">用 Email 聯絡</a>
+                  </div>
+                </div>
+                <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="rounded">
+                    <iframe class="rounded w-100" style="height: 400px;"
+                            src="https://www.google.com/maps?q=%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E4%B8%89%E9%87%8D%E8%B7%AF41%E5%B7%B737%E8%99%9F7%E6%A8%93&output=embed"
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /contact-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact End -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid footer bg-dark border-bottom-0">
+    <div class="container wow fadeIn" data-wow-delay="0.1s">
+      <div class="row g-0">
+        <div class="col-12">
+          <div class="footer-content h-100 pt-6 ps-6 pb-6">
+            <div class="row g-4 align-items-center">
+              <div class="col-12 text-center">
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-light btn-md-square me-3" target="_blank" rel="noopener" href="https://www.instagram.com/cc.tzuhsi?igsh=MXQzajk2NTdqb3cz&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                  <a class="btn btn-light btn-md-square me-0" target="_blank" rel="noopener" href="https://www.linkedin.com/in/%E5%AD%90%E7%90%8B-%E7%A7%A6-cccc?trk=contact-info"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="col-12 text-center">
+                <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-body me-2"></i>Sissi Qin</a>, All right reserved.</span>
+              </div>
+              <div class="col-12 text-center text-body">
+                Designed from Pigra template by <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+              </div>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+  <!-- JavaScript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
