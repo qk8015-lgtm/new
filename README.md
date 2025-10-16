@@ -2,10 +2,12 @@
 授課老師：蔡芸琤<br>
 個人網站：https://qk8015-lgtm.github.io/new/<br>
 作業二<br>
+影片連結:https://youtu.be/MBzMzIUY5cc<br>
 AItest（粉色主題校園活動幫手）：https://qk8015-lgtm.github.io/new/AItest<br>
 (改版主題為「校園／社團活動幫手」，功能從旅遊規劃改為協助設計與宣傳校園活動。
 使用者可輸入預算上限、宣傳對象、文案語氣、平台與 hashtag，AI 會生成對應的活動構想與貼文建議。
 介面風格改為粉色系主題，採柔和漸層與圓角卡片設計，按鈕與標籤以亮粉色（#ec4899）為主色，呈現溫暖青春的校園氛圍。)
+
 
 
 
