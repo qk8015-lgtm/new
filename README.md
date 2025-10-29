@@ -8,7 +8,9 @@ AItest（粉色主題校園活動幫手）：https://qk8015-lgtm.github.io/new/A
 使用者可輸入預算上限、宣傳對象、文案語氣、平台與 hashtag，AI 會生成對應的活動構想與貼文建議。
 介面風格改為粉色系主題，採柔和漸層與圓角卡片設計，按鈕與標籤以亮粉色（#ec4899）為主色，呈現溫暖青春的校園氛圍。)  <br>
 作業三:React專案與個人網頁整合<br>
+影片連結:https://youtu.be/eb74sXSUAD4<br>
 https://github.com/qk8015-lgtm/web2
+
 
 
 
