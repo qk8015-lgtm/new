@@ -15,6 +15,19 @@ render網址: https://web2-1-vfs6.onrender.com
 
 
 
+專題名稱  inspo-station 靈感生活站 <br>
+
+組員姓名與學號  41371213h秦子琋, 4131108h蔡逸安<br>
+
+線上網站網址（已部署完成）https://693fea27e0ced0053a765488--luxury-liger-974754.netlify.app/<br>
+
+YouTube 影片連結  https://youtu.be/ahrxnRipnq0 <br>
+
+專題程式碼 GitHub Repo 連結 https://github.com/qk8015-lgtm/inspo-station<br>
+
+
+
+
 
 
 
